@@ -12,8 +12,9 @@ Unfaedah *source code*. Hanya untuk hiburan semata. heheh.
 ## Usage
 
 - `Nomor Pendaftaran` dan `NISN` diisi dengan 10 digit angka.
-- `Website PTN` diisi dengan prefix *`http://www.`* atau *`https://www`*, kemudian diikuti dengan domain ptn. (biasanya diakhiri dengan domain `ac.id`)
+- Untuk versi 2018 dan 2019, `Website PTN` diisi dengan prefix *`http://www.`* atau *`https://www`*, kemudian diikuti dengan domain ptn. (biasanya diakhiri dengan domain `ac.id`)
      - contoh: [https://ipb.ac.id/](https://ipb.ac.id/)
+
 
 #### Selain ketiga data tersebut, tidak memiliki ketentuan khusus. Isi saja.
 
