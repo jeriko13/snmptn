@@ -5566,11 +5566,11 @@
                             <option value="" selected="selected">-- Prodi --</option>
                         </select>
                     </div>
-                    <div class="form-group">
+                    <!-- div class="form-group">
                         <label>Website PTN</label>
                         <input type="text" class="form-control input-md input-ptnweb" id="" name="ptnweb" value="http://www." placeholder="http://www." style="text-transform:lowercase" autocomplete="off" required="" />
                         <p class="help-block info">Alamat website PTN. Contoh: https://www.ipb.ac.id</p>
-                    </div>
+                    </div -->
                 </fieldset>
                 <button class="btn btn-primary" id="submitBtn" name="submit">Buat Ortumu Bangga!</button>
                 </form>
@@ -5657,7 +5657,22 @@
             </div>
 
             <div class="alert alert-warning hidden" id="divInfoResult1">
-                <!-- text 2019 -->
+                <!-- text 2020 -->
+                
+                <p>Status penerimaan Anda sebagai mahasiswa akan ditetapkan setelah PTN tujuan melakukan verifikasi data akademik (rapor dan/atau portofolio).
+                    Silakan Anda membaca peraturan tentang penerimaan mahasiswa baru di laman PTN tujuan. 
+                    Ketidakcermatan Anda dalam memenuhi ketentuan PTN dapat berdampak pada status penerimaan Anda. 
+                </p>
+
+                <p>Khusus peserta KIP Kuliah, PTN tujuan juga dapat melakukan verifikasi data ekonomi dan/atau kunjungan ke tempat tinggal Anda sebelum menetapkan status penerimaan Anda.
+                </p>
+                
+                <p>Sebagai bentuk rasa syukur kepada Tuhan Yang Maha Esa karena telah diterima melalui jalur SNMPTN 2020, mohon Anda bersedia menjadi "Duta Pencegahan Covid-19" dengan cara membantu mensosialisasikan materi yang tersedia di laman <a href="http://ltmpt.ac.id">ltmpt.ac.id</a> atau di Satgas Covid–19 PTN melalui berbagai media daring atau media lainnya.
+                </p>
+                <p>Pengumuman Resmi Tim Pelaksana Lembaga Tes Masuk Perguruan Tinggi 2020, <a
+                                href=/pengumuman2020.pdf>klik disini</a>.
+                </p>
+                <!-- text 2019
                 <p>
                     Status penerimaan Anda sebagai mahasiswa di PTN tujuan, akan ditentukan berdasarkan verifikasi data akademik (rapor dan portofolio) dan persyaratan yang akan ditentukan PTN, yang akan dilaksanakan oleh PTN tempat Anda diterima. Silakan anda melihat peraturan tentang penerimaan mhs baru di laman PTN yang meluluskan Anda. Ketidakcermatan Anda dalam memenuhi ketentuan PTN dapat berdampak pada status penerimaan Anda. Setelah Anda dinyatakan lolos verifikasi, maka status Anda ditetapkan diterima sebagai mahasiswa di PTN tujuan tersebut.
                 </p>
@@ -5667,6 +5682,7 @@
                 <p>
                     Pengumuman Resmi Tim Pelaksana Lembaga Tes Masuk Perguruan Tinggi 2020, <a href="#">klik disini</a>.
                 </p>
+                -->
                 <!-- text 2018
                 <p>Status penerimaan Anda sebagai mahasiswa di PTN tujuan, akan ditentukan berdasarkan verifikasi data akademik
                     (rapor dan portofolio) yang akan dilaksanakan oleh PTN tempat Anda diterima. Kehadiran pada saat registrasi
@@ -5680,16 +5696,23 @@
             </div>
 
             <div class="alert alert-danger hidden" id="divInfoResult2">
-                <!-- text 2019 -->
+                <!-- text 2020 -->
+                <p><strong>Penting: Anda harus melakukan pendaftaran ulang di PTN tempat Anda diterima.</strong>
+                    <p>Informasi pendaftaran ulang di PTN Anda dapat dilihat pada <em>link</em> di bawah (klik pada
+                        tulisan Informasi Pendaftaran Ulang).<h4 style=margin-top:10px;margin-bottom:0><a
+                                href=https://registrasi.admisi.ipb.ac.id id=url1><strong>Informasi Pendaftaran Ulang »</strong></a></h4>
+                        <p><a href=https://registrasi.admisi.ipb.ac.id id=url2><span id=url3>https://registrasi.admisi.ipb.ac.id</span></a>
+                <!-- text 2019
                 <p><strong>Penting: Anda harus melakukan pendaftaran ulang di PTN tempat Anda diterima.</strong><p>Informasi pendaftaran ulang di PTN Anda dapat dilihat pada <em>link</em> di bawah (klik pada tulisan Informasi Pendaftaran Ulang).</p>
-                <h4 style="margin-top:10px;margin-bottom:0"><a id="url1" href="<?php if(isset($_POST['submit'])){echo $_POST["ptnweb"];} ?>"><strong>Informasi Pendaftaran Ulang »</strong></a></h4>
-                <p><a id="url2" href="<?php if(isset($_POST['submit'])){echo $_POST["ptnweb"];} ?>"><span id="url3"><?php if(isset($_POST['submit'])){echo $_POST["ptnweb"];} ?></span></a></p>
+                <h4 style="margin-top:10px;margin-bottom:0"><a id="url1" href=""><strong>Informasi Pendaftaran Ulang »</strong></a></h4>
+                <p><a id="url2" href=""><span id="url3"></span></a></p>
+                -->
                 <!-- text 2018
                 <p><strong>Penting: Anda harus melakukan pendaftaran ulang di PTN tempat Anda diterima.</strong></p>
                 <p>Informasi pendaftaran ulang di PTN Anda dapat dilihat pada <em>link</em> di bawah (klik pada tulisan Informasi
                     Pendaftaran Ulang).</p>
-                <h4 style="margin-top:10px;margin-bottom:0"><a id="url1" href="<?php echo $_POST["ptnweb"]; ?>"><strong>Informasi Pendaftaran Ulang »</strong></a></h4>
-                <p><a id="url2" href="<?php echo $_POST["ptnweb"]; ?>"><span id="url3"><?php echo $_POST["ptnweb"]; ?></span></a></p>
+                <h4 style="margin-top:10px;margin-bottom:0"><a id="url1" href=""><strong>Informasi Pendaftaran Ulang »</strong></a></h4>
+                <p><a id="url2" href=""><span id="url3"></span></a></p>
                 -->
             </div>
 
