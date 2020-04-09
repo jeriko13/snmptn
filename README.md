@@ -1,8 +1,7 @@
 # Fake SNMPTN Generator
 
-10/04/2020:
-disarankan pakai index2020.php, itu versi terakhir yang saya edit untuk versi 2020.
-karena selain itu, script berisikan tampilan versi 2018/2019.
+## [2020] - 2020-04-10
+Disarankan pakai index2020.php, itu versi terakhir yang saya edit untuk versi 2020. Karena selain itu, script berisikan tampilan versi 2018/2019.
 
 Unfaedah *source code*. Hanya untuk hiburan semata. heheh.
 
