@@ -5637,7 +5637,7 @@
                 <table style="width: 100%">
                     <tbody><tr>
                         <td>
-                            <p><strong>Selamat, Anda dinyatakan lulus SNMPTN 2020 pada</strong></p>
+                            <p><strong>Selamat, Anda dinyatakan lulus Seleksi SNMPTN 2020 pada</strong></p>
                             <table class="pull-left table table-program">
                                 <tbody><tr>
                                     <td width="120px">PTN</td>
