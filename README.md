@@ -1,38 +1,29 @@
 # Fake SNMPTN Generator
-
-## [2020] - 2020-04-10
-Disarankan pakai index2020.php, itu versi terakhir yang saya edit untuk versi 2020. Karena selain itu, script berisikan tampilan versi 2018/2019.
-
 Unfaedah *source code*. Hanya untuk hiburan semata. heheh.
+
+## Important!
+
+- `03/10/20` **Sangat disarankan** untuk menggunakan versi **single**. Jika tetap ingin menggunakan versi **non-single**, silakan ubah terlebih dahulu *source code*nya, karena masih menggunakan *template* **2019**.
+
 
 ## Installation on *localhost* using XAMPP
 
-    1. Ekstrak source code kedalam folder htdocs.
+    1. Ekstrak source code kedalam direktori htdocs.
        (tempatkan di satu buah folder terlebih dahulu)
-    2. Akses URL localhost diikuti nama foldernya.
+    2. Akses URL localhost diikuti nama direktorinya.
        (contoh: http://localhost/snmptn)
-
-## Usage
-
-- `Nomor Pendaftaran` dan `NISN` diisi dengan 10 digit angka.
-- Untuk versi 2019, `Website PTN` diisi dengan prefix *`http://www.`* atau *`https://www`*, kemudian diikuti dengan domain ptn. (biasanya diakhiri dengan domain `ac.id`)
-     - contoh: [https://ipb.ac.id/](https://ipb.ac.id/)
-
-
-#### Selain ketiga data tersebut, tidak memiliki ketentuan khusus. Isi saja.
 
 ## Notes
 
 **Terdapat 2 versi, *single* dan *non-single.***
-- `Single`: semua file assets digabung kedalam 1 file *index.php*.
-- `Non-Single`: semua file assets letaknya terpisah dari file *index.php*
-
+- `Single`: Semua file assets digabung kedalam 1 file *index.php*.
+- `Non-Single`: Semua file assets letaknya terpisah dari file *index.php*
 
 ## Author
 
-* Original html *source code* - [TIK LTMPT 2019](https://ltmpt.ac.id/)
+* *Original source code* - [TIK LTMPT](https://ltmpt.ac.id/)
 * **Fake** *generator* - [naufalist](https://github.com/naufalist)
 
 ##
 
-### Gunakan dengan BIJAK gaes!
+#### Gunakan dengan BIJAK gaes!
